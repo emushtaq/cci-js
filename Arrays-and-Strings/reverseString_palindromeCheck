@@ -1,9 +1,9 @@
 // Reverse a string. Extensible to be a palindrome check
 
 function reverse(str) {
-	return str.split('').reverse().join('')
+  return str.split('').reverse().join('')
 }
 
 function isPalindrome(str) {
-	return (str===reverse(str))
+  return (str===reverse(str))
 }
